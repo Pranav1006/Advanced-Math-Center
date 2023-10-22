@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.statsExpl {
+  color: blue;
+}
+
+.statsTopics {
+  color: red;
+}
+
+.statsTopButton {
+    color: aqua;
+    background-color: rgb(13, 5, 229);
+    width: 400px;
+    padding-top: 71.25px;
+    padding-bottom: 71.25px;
+    font-size: 50px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.statsTopButton:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.statsTopButton:active {
+  opacity: 0.9;
+}

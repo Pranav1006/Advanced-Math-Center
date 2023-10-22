@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.calcExpl {
+  color: blue;
+}
+
+.calcTopics {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.calcTopButton {
+  color: aqua;
+  background-color: rgb(13, 5, 229);
+  width: 400px;
+  padding-top: 71.25px;
+  padding-bottom: 71.25px;
+  font-size: 50px;
+  border-radius: 20px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.calcTopButton:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.calcTopButton:active {
+  opacity: 0.9;
+}
